@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Jacob Michels</h1>
+								<!-- <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br /> -->
+								<!-- for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> -->
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">About me</a></li>
+								<li><a href="#manulife">Manulife Fall 2020</a></li>
+								<li><a href="#contact">Contact me</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<p>Hello and welcome to my portfolio! I'm Jacob and I'm currently a 3rd year computer science co-op student at the University of Guelph. I'm passionate about programming and love learning new technologies!</p>
+								<p><a href="#manulife">Check out my most recent co-op at Manulife</a>.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="manulife">
+								<h2 class="major">Manulife Fall 2020</h2>
+								<span class="image main"><img src="images/manulife.jpg" alt="" /></span>
+								<h3>Introduction</h3>
+								<p>Hello! I’m Jacob and I’d like to welcome you to my report on my time as a student backend software engineer at Manulife Financial Corporation. I had a great time at Manulife and would like to share some of the things I learned!</p>
+								<h3>Information about the employer</h3>
+								<p>During the fall 2020 season, I was working for Manulife Financial on a co-op term. I was working remotely from my home, but had it not been for the pandemic currently going on I would have been working out of their beautiful Waterloo office. Manulife is a Canadian company and primarily operates as multinational insurance company, but they also provide other financial services such as banking. Founded as the Manufacturers insurance company in 1887, its first president was the first prime minister of Canada, John A Macdonald! More recently, Manulife has been going through a technological revolution. Moving away from mainframe based systems in favour of cloud based systems with Microsoft Azure to benefit from cost savings, scalability, and many others.</p>
+								<h3>Job Description</h3>
+								<p>For the duration of my co-op at Manulife, I was working with the Sparck squad. Sparck’s main objective at the time was assisting with the move to cloud-based systems to replace Manulife’s old mainframe-based systems. My squad’s specific focus was on creating and maintaining backend microservices with .Net core. The main project I was given to work on was a .Net framework microservice that’s future job would be to handle insurance claims submitted by dentists on behalf of patients. It was in an unfinished state and in need of some repairs, so I undertook some work to overhaul it. Some examples of the work I managed to do on it are that I migrated the codebase from the windows only .net framework to the latest version of the cross platform .net core, I fixed the code quality issues reported by the static code analyzer SonarQube, and I refactored the codebase to properly take advantage of modern .Net core features like constructor-based dependency injection and asynchronous programming.</p>
+								<p>When not working on the dental claims project, I would be helping the team with whatever they needed. For example, I often found myself managing Jenkins pipelines and helping to debug them if they happened to fail. Another task I often picked up was writing unit tests or resolving code quality issues on projects being worked on by other team members. While most of the work I did during my work term was writing code, I also picked up a few tasks to write documentation. I would be tasked to write documents detailing the current status of an application or getting started documents to help onboard others to start working on an application. I appreciate that I had the opportunity to try different things at work every day, so I was able to find out what I most liked doing.</p>
+								<h3>Goals</h3>
+								<p>I believe that goals are a necessary tool to track and measure your improvements at anything, so to develop my career skills I set three goals for myself to work at during my co-op at Manulife. </p>
+								<p>The first goal I set for myself was to improve my oral communication abilities. I understand that good communication skills in a work environment are essential, so I set this goal for myself in order to ensure that I can speak clearly, concisely and confidently. Since most of my speaking was about what work I had been doing and what work I plan on doing, I found that staying organized and keeping notes tracking what I’ve done and what my plans are helped me greatly in making progress towards this goal.</p>
+								<p>My next goal had to do with becoming more familiar with the technology used by my squad. Sparck’s language of choice was C# on the .Net core platform, and I realized that to be truly helpful to my team I needed to have a thorough understanding of C# and it’s best practices to be able to write code independently without my team questioning its quality. Reflecting on this goal, I believe that what helped me achieve it was taking my time to fully examine code and not being afraid to ask questions about why the code was written the way it was.</p>
+								<p>My final goal was wanting to learn more about the process of writing software to be used in an enterprise production environment. This means things like learning how to write code to be secure, performant, fault tolerant, and testable, things that can often take a backseat in school or personal projects. I also wanted to learn about the infrastructure used to support production code, like CI and CD systems, monitoring systems like new relic, and disaster recovery methods. To accomplish this last goal, I found that I needed to be exposed to the development and maintenance of Sparck’s microservices, and to pay attention to how they worked. I was able to see how new enterprise level applications are built with a focus on performance, such as considering and optimizing what lies on a service’s hot path. Being exposed to this kind of development taught me that stability is often more important than using the latest and greatest features. For example, choosing to use an older, LTS release of something than using the brand-new release may be a smarter choice for software that needs to have 100% uptime and support many users.</p>
+								<h3>Technologies</h3>
+								<p>Working at Manulife gave me the opportunity to use some great tools to assist development and remove some of the unproductive tedious work. Two notable examples were CI/CD pipeline systems and utilizing an IDE to write code efficiently.</p>
+								<p>The CI/CD system used at Manulife is called Jenkins, and it’s a very useful tool! What a CI/CD system allows you to do is automate the continuous integration (validating and checking in small changes to SCM) and deployment of your code. I learned the process of setting up a new Jenkins CI pipeline to build, test, and quality check your code with SonarQube, as well as create CD pipelines to deploy code to a predefined environment, if it passed the CI checks. I learned that while these pipelines may take a little while to initially learn and setup, the payoff is worth the time investment as they save a significant amount of time over the long run and inevitably reduce the number of mistakes made by user error.</p>
+								<p> As for the IDE, Sparck used Microsoft Visual Studio. After the initial learning curve that came from my transition from Visual Studio Code which I had relied on up until this point, I quickly realized Visual Studio is an awesome tool that makes the development experience much simpler by including multiple useful tools. Some of the many different tools it bundles together are a nice GUI for source control, integrated build tools that call the compiler and provide hooks to run batch files before and after builds, automated code cleanup and format tools, and an automated test runner.  It also has extensive plugin support, so if there I was some functionality I needed I could download a plugin or make my own to add that functionality in. With the tools it provides, and some fancy editor features like intellisense and code generation, Visual Studio helped me become as productive a developer as I could be.</p>
+								<h3>Conclusion</h3>
+								<p>My backend software engineer co-op at Manulife was a fun and productive time. I was happy to be a member the Sparck squad and enjoyed the challenging work I was doing. I was able to develop my programming skills as well as my communication skills and learned a collection of helpful technologies to further propel my computer science career. </p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<p>Reach me at my email address jmichels@uoguelph.ca</p>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
