@@ -31,9 +31,10 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">About me</a></li>
 								<li><a href="#manulife">Manulife Fall 2020</a></li>
-								<li><a href="#contact">Contact me</a></li>
+								<li><a href="#manulife-s21">Manulife Summer 2021</a></li>
+								<li><a href="#intro">About me</a></li>
+								<!-- <li><a href="#contact">Contact me</a></li> -->
 							</ul>
 						</nav>
 					</header>
@@ -45,7 +46,10 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<p>Hello and welcome to my portfolio! I'm Jacob and I'm currently a 3rd year computer science co-op student at the University of Guelph. I'm passionate about programming and love learning new technologies!</p>
-								<p><a href="#manulife">Check out my most recent co-op at Manulife</a>.</p>
+								<p>Reach me at my email address jmichels@uoguelph.ca</p>
+								<p><a href="https://www.linkedin.com/in/jacob-michels/">Connect with me on Linkedin</a></p>
+								<p><a href="https://github.com/jacobmichels">See what I've been up to on my Github</a></p>
+								<p><a href="#manulife-s21">Check out my most recent co-op at Manulife</a>.</p>
 							</article>
 
 						<!-- Work -->
@@ -70,6 +74,22 @@
 								<p> As for the IDE, Sparck used Microsoft Visual Studio. After the initial learning curve that came from my transition from Visual Studio Code which I had relied on up until this point, I quickly realized Visual Studio is an awesome tool that makes the development experience much simpler by including multiple useful tools. Some of the many different tools it bundles together are a nice GUI for source control, integrated build tools that call the compiler and provide hooks to run batch files before and after builds, automated code cleanup and format tools, and an automated test runner.  It also has extensive plugin support, so if there I was some functionality I needed I could download a plugin or make my own to add that functionality in. With the tools it provides, and some fancy editor features like intellisense and code generation, Visual Studio helped me become as productive a developer as I could be.</p>
 								<h3>Conclusion</h3>
 								<p>My backend software engineer co-op at Manulife was a fun and productive time. I was happy to be a member the Sparck squad and enjoyed the challenging work I was doing. I was able to develop my programming skills as well as my communication skills and learned a collection of helpful technologies to further propel my computer science career. </p>
+							</article>
+
+							<!-- Work -->
+							<article id="manulife-s21">
+								<h2 class="major">Manulife Summer 2021</h2>
+								<span class="image main"><img src="images/manulife_green.jpg" alt="" /></span>
+								<h3>Introduction</h3>
+								<p>Hello there! Welcome to my report on my second stint at Manulife. This time around, I was doing data engineering with Databricks and Python. I'd like to share with you my overall experience at Manulife this summer and what I took away from this work term.</p>
+								<h3>Information about the employer</h3>
+								<p>Manulife is a large Canadian-based, multinational insurance and financial services company. They've been around quite a while, since 1887 to be precise. They've had a lot of time to accrue massive amounts of data. For decades, Manulife has been storing most of it's abundance of data in it's on-premises mainframe system. While they do still work, these mainframe systems are already very much out of date and often very painful to work with. Manulife has been working on moving away from these mainframe systems to much more modern cloud-based systems which are much easier to work with and scale. This is where my role comes in, I was helping with the extraction, transformation and loading of mainframe data to the cloud.</p>
+								<h3>Job Description</h3>
+								<p>As I mentioned above, I was doing data engineering during this work-term. More specifically, I was working with the Hopper squad to help to build the process that would eventually be responsible for automatically moving all data from the mainframe to the cloud. Assisting with the creation of this automation process was, of course, not as simple as it sounds. While reading data from the mainframe was thankfully abstracted away, and writing data to the output cloud database tables was very simple, the middle step of applying transformations to the mainframe data to satisfy business requirements proved to be a tricky task. To do this transformation work, the squad introduced me to Apache Spark, a data processing framework. This framework was very useful in that it could apply complex logic to a dataset in a way that was easy to understand. Most of my time during this work-term was spent debugging, improving, and creating new transformation jobs using Apache Spark.</p>
+								<p>I also spent a lot of time writing unit tests for these transformations. It was critical to ensure these transformations did what we expected them to do, for every possible case, so writing exhaustive tests was a very important part of the job, even if it wasn't the most exciting.</p>
+								<p>While not a part of my official job, I also tried to help out where I could with general environment improvements. One such improvement I undertook was creating and documenting a new testing environment in an attempt to increase the runtime performance of the tests. Running the Spark unit tests on Windows machines was horribly slow due to Spark not being optimized for Windows. Some tests could take upwards of an hour to run, while only taking minutes on Unix-like machines. Unsatisfied with this, I leveraged the Windows Subsystem for Linux (WSL) to create a Linux environment to run our tests in. This resulted in a massive performance improvement for the tests, in some cases they ran up to 60 times faster. I also undertook smaller improvements, like fixing database connections for a specific Spark cluster type. While programming the transformations was my main duty, I'm happy to use my technical intuition help iron out the small annoyances.</p>
+								<h3>Goals</h3>
+								<h3>Conclusion</h3>
 							</article>
 
 						<!-- Contact -->
