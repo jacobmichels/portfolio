@@ -1,125 +1,392 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Jacob's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Jacob's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="icon fa-gem"></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>Jacob Michels</h1>
+            <!-- <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br /> -->
+            <!-- for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> -->
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#manulife">Manulife Fall 2020</a></li>
+            <li><a href="#manulife-s21">Manulife Summer 2021</a></li>
+            <li><a href="#manulife-s21">Shopify 2022</a></li>
+            <!-- <li><a href="#contact">Contact me</a></li> -->
+          </ul>
+        </nav>
+        <a href="#intro">About me</a>
+      </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- Intro -->
+        <article id="intro">
+          <h2 class="major">Intro</h2>
+          <p>
+            Hello and welcome to my portfolio! I'm Jacob and I'm currently a 5th
+            year computer science co-op student at the University of Guelph. I'm
+            passionate about software engineering and love learning new
+            technologies!
+          </p>
+          <p>
+            Lately I've been diving deep into containerization with Docker, and
+            serverless architecture with Google's Cloud Run.
+          </p>
+          <p>Reach me at my email address jmichels@uoguelph.ca</p>
+          <p>
+            <a href="https://www.linkedin.com/in/jacob-michels/"
+              >Connect with me on Linkedin</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/jacobmichels"
+              >See what I've been up to on my Github</a
+            >
+          </p>
+          <p>
+            <a href="#shopify-22"
+              >Check out what I did at my most recent co-op with Shopify</a
+            >.
+          </p>
+        </article>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Jacob Michels</h1>
-								<!-- <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br /> -->
-								<!-- for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> -->
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#manulife">Manulife Fall 2020</a></li>
-								<li><a href="#manulife-s21">Manulife Summer 2021</a></li>
-								<li><a href="#intro">About me</a></li>
-								<!-- <li><a href="#contact">Contact me</a></li> -->
-							</ul>
-						</nav>
-					</header>
+        <!-- Work -->
+        <article id="manulife">
+          <h2 class="major">Manulife Fall 2020</h2>
+          <span class="image main"
+            ><img src="images/manulife.jpg" alt=""
+          /></span>
+          <h3>Introduction</h3>
+          <p>
+            Hello! I’m Jacob and I’d like to welcome you to my report on my time
+            as a student backend software engineer at Manulife Financial
+            Corporation. I had a great time at Manulife and would like to share
+            some of the things I learned!
+          </p>
+          <h3>Information about the employer</h3>
+          <p>
+            During the fall 2020 season, I was working for Manulife Financial on
+            a co-op term. I was working remotely from my home, but had it not
+            been for the pandemic currently going on I would have been working
+            out of their beautiful Waterloo office. Manulife is a Canadian
+            company and primarily operates as multinational insurance company,
+            but they also provide other financial services such as banking.
+            Founded as the Manufacturers insurance company in 1887, its first
+            president was the first prime minister of Canada, John A Macdonald!
+            More recently, Manulife has been going through a technological
+            revolution. Moving away from mainframe based systems in favour of
+            cloud based systems with Microsoft Azure to benefit from cost
+            savings, scalability, and many others.
+          </p>
+          <h3>Job Description</h3>
+          <p>
+            For the duration of my co-op at Manulife, I was working with the
+            Sparck squad. Sparck’s main objective at the time was assisting with
+            the move to cloud-based systems to replace Manulife’s old
+            mainframe-based systems. My squad’s specific focus was on creating
+            and maintaining backend microservices with .Net core. The main
+            project I was given to work on was a .Net framework microservice
+            that’s future job would be to handle insurance claims submitted by
+            dentists on behalf of patients. It was in an unfinished state and in
+            need of some repairs, so I undertook some work to overhaul it. Some
+            examples of the work I managed to do on it are that I migrated the
+            codebase from the windows only .net framework to the latest version
+            of the cross platform .net core, I fixed the code quality issues
+            reported by the static code analyzer SonarQube, and I refactored the
+            codebase to properly take advantage of modern .Net core features
+            like constructor-based dependency injection and asynchronous
+            programming.
+          </p>
+          <p>
+            When not working on the dental claims project, I would be helping
+            the team with whatever they needed. For example, I often found
+            myself managing Jenkins pipelines and helping to debug them if they
+            happened to fail. Another task I often picked up was writing unit
+            tests or resolving code quality issues on projects being worked on
+            by other team members. While most of the work I did during my work
+            term was writing code, I also picked up a few tasks to write
+            documentation. I would be tasked to write documents detailing the
+            current status of an application or getting started documents to
+            help onboard others to start working on an application. I appreciate
+            that I had the opportunity to try different things at work every
+            day, so I was able to find out what I most liked doing.
+          </p>
+          <h3>Goals</h3>
+          <p>
+            I believe that goals are a necessary tool to track and measure your
+            improvements at anything, so to develop my career skills I set three
+            goals for myself to work at during my co-op at Manulife.
+          </p>
+          <p>
+            The first goal I set for myself was to improve my oral communication
+            abilities. I understand that good communication skills in a work
+            environment are essential, so I set this goal for myself in order to
+            ensure that I can speak clearly, concisely and confidently. Since
+            most of my speaking was about what work I had been doing and what
+            work I plan on doing, I found that staying organized and keeping
+            notes tracking what I’ve done and what my plans are helped me
+            greatly in making progress towards this goal.
+          </p>
+          <p>
+            My next goal had to do with becoming more familiar with the
+            technology used by my squad. Sparck’s language of choice was C# on
+            the .Net core platform, and I realized that to be truly helpful to
+            my team I needed to have a thorough understanding of C# and it’s
+            best practices to be able to write code independently without my
+            team questioning its quality. Reflecting on this goal, I believe
+            that what helped me achieve it was taking my time to fully examine
+            code and not being afraid to ask questions about why the code was
+            written the way it was.
+          </p>
+          <p>
+            My final goal was wanting to learn more about the process of writing
+            software to be used in an enterprise production environment. This
+            means things like learning how to write code to be secure,
+            performant, fault tolerant, and testable, things that can often take
+            a backseat in school or personal projects. I also wanted to learn
+            about the infrastructure used to support production code, like CI
+            and CD systems, monitoring systems like new relic, and disaster
+            recovery methods. To accomplish this last goal, I found that I
+            needed to be exposed to the development and maintenance of Sparck’s
+            microservices, and to pay attention to how they worked. I was able
+            to see how new enterprise level applications are built with a focus
+            on performance, such as considering and optimizing what lies on a
+            service’s hot path. Being exposed to this kind of development taught
+            me that stability is often more important than using the latest and
+            greatest features. For example, choosing to use an older, LTS
+            release of something than using the brand-new release may be a
+            smarter choice for software that needs to have 100% uptime and
+            support many users.
+          </p>
+          <h3>Technologies</h3>
+          <p>
+            Working at Manulife gave me the opportunity to use some great tools
+            to assist development and remove some of the unproductive tedious
+            work. Two notable examples were CI/CD pipeline systems and utilizing
+            an IDE to write code efficiently.
+          </p>
+          <p>
+            The CI/CD system used at Manulife is called Jenkins, and it’s a very
+            useful tool! What a CI/CD system allows you to do is automate the
+            continuous integration (validating and checking in small changes to
+            SCM) and deployment of your code. I learned the process of setting
+            up a new Jenkins CI pipeline to build, test, and quality check your
+            code with SonarQube, as well as create CD pipelines to deploy code
+            to a predefined environment, if it passed the CI checks. I learned
+            that while these pipelines may take a little while to initially
+            learn and setup, the payoff is worth the time investment as they
+            save a significant amount of time over the long run and inevitably
+            reduce the number of mistakes made by user error.
+          </p>
+          <p>
+            As for the IDE, Sparck used Microsoft Visual Studio. After the
+            initial learning curve that came from my transition from Visual
+            Studio Code which I had relied on up until this point, I quickly
+            realized Visual Studio is an awesome tool that makes the development
+            experience much simpler by including multiple useful tools. Some of
+            the many different tools it bundles together are a nice GUI for
+            source control, integrated build tools that call the compiler and
+            provide hooks to run batch files before and after builds, automated
+            code cleanup and format tools, and an automated test runner. It also
+            has extensive plugin support, so if there I was some functionality I
+            needed I could download a plugin or make my own to add that
+            functionality in. With the tools it provides, and some fancy editor
+            features like intellisense and code generation, Visual Studio helped
+            me become as productive a developer as I could be.
+          </p>
+          <h3>Conclusion</h3>
+          <p>
+            My backend software engineer co-op at Manulife was a fun and
+            productive time. I was happy to be a member the Sparck squad and
+            enjoyed the challenging work I was doing. I was able to develop my
+            programming skills as well as my communication skills and learned a
+            collection of helpful technologies to further propel my computer
+            science career.
+          </p>
+        </article>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Work -->
+        <article id="manulife-s21">
+          <h2 class="major">Manulife Summer 2021</h2>
+          <span class="image main"
+            ><img src="images/manulife_green.jpg" alt=""
+          /></span>
+          <h3>Introduction</h3>
+          <p>
+            Hello there! Welcome to my report on my second stint at Manulife.
+            This time around, I was doing data engineering with Databricks and
+            Python. I'd like to share with you my overall experience at Manulife
+            this summer and what I took away from this work term.
+          </p>
+          <h3>Information about the employer</h3>
+          <p>
+            Manulife is a large Canadian-based, multinational insurance and
+            financial services company. They've been around quite a while, since
+            1887 to be precise. Clearly, they've had a lot of time to accrue a
+            massive pile of data. For decades, Manulife has been storing most of
+            it's abundance of data in it's on-premises mainframe system. While
+            they do still work, these mainframe systems are very much out of
+            date and often very painful to work with. Manulife has been working
+            on moving away from these mainframe systems to much more modern
+            cloud-based systems which are easier to work with and scale better.
+            This is where my role comes in, I was helping with the extraction,
+            transformation and loading (ETL) of mainframe data to the cloud.
+          </p>
+          <h3>Job Description</h3>
+          <p>
+            As I mentioned above, I was doing data engineering during this
+            work-term. More specifically, I was working with the Hopper squad to
+            help to build the process that would eventually be responsible for
+            automatically moving all data from the mainframe to the cloud.
+            Assisting with the creation of this automation process was, of
+            course, not as simple as it sounds. While reading data from the
+            mainframe was thankfully abstracted away, and writing data to the
+            output cloud database tables was very simple, the middle step of
+            applying transformations to the mainframe data to satisfy business
+            requirements proved to be a tricky task. To do this transformation
+            work, the squad introduced me to Apache Spark, a data processing
+            framework. This framework was very useful in that it could apply
+            complex logic to a dataset in a way that was easy to understand.
+            Most of my time during this work-term was spent debugging,
+            improving, and creating new transformation jobs using Apache Spark
+            on the Databricks platform, a cloud runtime for Spark.
+          </p>
+          <p>
+            I also spent a lot of time writing unit tests for these
+            transformations. It was critical to ensure these transformations did
+            what we expected them to do, for every possible case, so writing
+            exhaustive tests was a very important part of the job, even if it
+            wasn't the most exciting.
+          </p>
+          <p>
+            While not a part of my official job as a data engineer, I also did
+            some work to improve the squad's development environment. One such
+            improvement I undertook was creating and documenting a new testing
+            environment in an attempt to increase the runtime performance of the
+            tests. Running the Spark unit tests on Windows machines was horribly
+            slow due to Spark not being optimized for Windows. Some tests could
+            take upwards of an hour to run, while only taking minutes on
+            Unix-like machines. Unsatisfied with this, I leveraged the Windows
+            Subsystem for Linux (WSL) to create a Linux environment to run our
+            tests in. This resulted in a massive performance improvement for the
+            tests, in some cases they ran up to 60 times faster. I also
+            undertook smaller improvements, like fixing database connections for
+            a specific Spark cluster type. While programming the transformations
+            was my main duty, I'm happy to use my technical intuition help iron
+            out the small annoyances.
+          </p>
+          <h3>Goals</h3>
+          <p>
+            I set three goals for myself to work towards during my term at
+            Manulife this past summer.
+          </p>
+          <p>
+            The first of the three goals was to learn about and experience the
+            field of data science/data engineering. I had never done any data
+            engineering work previously, so I wanted to know more about it, like
+            what problems it solves and what tools are commonly used. After
+            working in the field for the summer, I gained some understanding of
+            data engineering and the problems it solves, but also realized I am
+            nowhere near grasping the whole field. It is a very broad
+            discipline. What I did gain was an understanding of how data
+            engineering solves the problems presented by Manulife, and why the
+            tools we used to solve the problems were used. For example, building
+            ETL pipelines to relocate and transform data is a data engineering
+            task, and we use Apache Spark along with Databricks and Python to
+            build the pipelines because of their flexibility and ease of
+            manipulating large sets of data.
+          </p>
+          <p>
+            My second goal was to improve my demonstration and presentation
+            skills. When creating this goal, I felt like I was not able to
+            demonstrate functionality as clear as I should be able to. Over the
+            course of the Summer, I was given multiple opportunities to gives
+            demos on things I had worked on/created. Through these
+            opportunities, I became more confident and became better at
+            structuring how I present information. I found a big help in this
+            was planning the structure of my presentations, rather than planning
+            what I would say. Sticking to a script is difficult, it's much
+            easier to have an idea of what I need to talk about and simply talk
+            about. After all, when presenting my own work, I'm the expert.
+            Another big help in working towards this goal was feedback from
+            teammates. I was able to guage how well I explained myself based on
+            feedback from squad members, and paying attention to common question
+            topics from the audience.
+          </p>
+          <p>
+            My final goal was simply to see if I enjoy data engineering work. I
+            am trying to experience something new each co-op term, so I can find
+            the kind of work I like and the kind of work I don't. Doing data
+            engineering was interesting, and I liked it more than I thought I
+            would. Python is a great language to use, and databricks is a cool
+            platform. Apache Spark is a very powerful tool and I'm happy I got
+            the chance to use it in a real project. With that being said, I
+            think I prefer backend web development. I feel at home writing
+            backend code, but I'm glad I had this experience so I know what data
+            engineering is like. If I get bored of backend development in the
+            future, I wouldn't be opposed to coming back to this kind of work.
+          </p>
+          <h3>Conclusion</h3>
+          <p>
+            My summer of data engineering Manulife was a great experience.
+            Hopper squad was an awesome squad to be a member of. I learned a lot
+            about a very different field of computer science, and got to gain
+            experience with a bunch of cool technologies that I hope to use
+            again one day. While data engineering may not be my first field of
+            choice, I will not forget what I learned this summer and hope I will
+            be able to apply this knowledge in my future career!
+          </p>
+        </article>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<p>Hello and welcome to my portfolio! I'm Jacob and I'm currently a 3rd year computer science co-op student at the University of Guelph. I'm passionate about programming and love learning new technologies!</p>
-								<p>Reach me at my email address jmichels@uoguelph.ca</p>
-								<p><a href="https://www.linkedin.com/in/jacob-michels/">Connect with me on Linkedin</a></p>
-								<p><a href="https://github.com/jacobmichels">See what I've been up to on my Github</a></p>
-								<p><a href="#manulife-s21">Check out my most recent co-op at Manulife</a>.</p>
-							</article>
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Contact</h2>
+          <p>Reach me at my email address jmichels@uoguelph.ca</p>
+        </article>
+      </div>
 
-						<!-- Work -->
-							<article id="manulife">
-								<h2 class="major">Manulife Fall 2020</h2>
-								<span class="image main"><img src="images/manulife.jpg" alt="" /></span>
-								<h3>Introduction</h3>
-								<p>Hello! I’m Jacob and I’d like to welcome you to my report on my time as a student backend software engineer at Manulife Financial Corporation. I had a great time at Manulife and would like to share some of the things I learned!</p>
-								<h3>Information about the employer</h3>
-								<p>During the fall 2020 season, I was working for Manulife Financial on a co-op term. I was working remotely from my home, but had it not been for the pandemic currently going on I would have been working out of their beautiful Waterloo office. Manulife is a Canadian company and primarily operates as multinational insurance company, but they also provide other financial services such as banking. Founded as the Manufacturers insurance company in 1887, its first president was the first prime minister of Canada, John A Macdonald! More recently, Manulife has been going through a technological revolution. Moving away from mainframe based systems in favour of cloud based systems with Microsoft Azure to benefit from cost savings, scalability, and many others.</p>
-								<h3>Job Description</h3>
-								<p>For the duration of my co-op at Manulife, I was working with the Sparck squad. Sparck’s main objective at the time was assisting with the move to cloud-based systems to replace Manulife’s old mainframe-based systems. My squad’s specific focus was on creating and maintaining backend microservices with .Net core. The main project I was given to work on was a .Net framework microservice that’s future job would be to handle insurance claims submitted by dentists on behalf of patients. It was in an unfinished state and in need of some repairs, so I undertook some work to overhaul it. Some examples of the work I managed to do on it are that I migrated the codebase from the windows only .net framework to the latest version of the cross platform .net core, I fixed the code quality issues reported by the static code analyzer SonarQube, and I refactored the codebase to properly take advantage of modern .Net core features like constructor-based dependency injection and asynchronous programming.</p>
-								<p>When not working on the dental claims project, I would be helping the team with whatever they needed. For example, I often found myself managing Jenkins pipelines and helping to debug them if they happened to fail. Another task I often picked up was writing unit tests or resolving code quality issues on projects being worked on by other team members. While most of the work I did during my work term was writing code, I also picked up a few tasks to write documentation. I would be tasked to write documents detailing the current status of an application or getting started documents to help onboard others to start working on an application. I appreciate that I had the opportunity to try different things at work every day, so I was able to find out what I most liked doing.</p>
-								<h3>Goals</h3>
-								<p>I believe that goals are a necessary tool to track and measure your improvements at anything, so to develop my career skills I set three goals for myself to work at during my co-op at Manulife. </p>
-								<p>The first goal I set for myself was to improve my oral communication abilities. I understand that good communication skills in a work environment are essential, so I set this goal for myself in order to ensure that I can speak clearly, concisely and confidently. Since most of my speaking was about what work I had been doing and what work I plan on doing, I found that staying organized and keeping notes tracking what I’ve done and what my plans are helped me greatly in making progress towards this goal.</p>
-								<p>My next goal had to do with becoming more familiar with the technology used by my squad. Sparck’s language of choice was C# on the .Net core platform, and I realized that to be truly helpful to my team I needed to have a thorough understanding of C# and it’s best practices to be able to write code independently without my team questioning its quality. Reflecting on this goal, I believe that what helped me achieve it was taking my time to fully examine code and not being afraid to ask questions about why the code was written the way it was.</p>
-								<p>My final goal was wanting to learn more about the process of writing software to be used in an enterprise production environment. This means things like learning how to write code to be secure, performant, fault tolerant, and testable, things that can often take a backseat in school or personal projects. I also wanted to learn about the infrastructure used to support production code, like CI and CD systems, monitoring systems like new relic, and disaster recovery methods. To accomplish this last goal, I found that I needed to be exposed to the development and maintenance of Sparck’s microservices, and to pay attention to how they worked. I was able to see how new enterprise level applications are built with a focus on performance, such as considering and optimizing what lies on a service’s hot path. Being exposed to this kind of development taught me that stability is often more important than using the latest and greatest features. For example, choosing to use an older, LTS release of something than using the brand-new release may be a smarter choice for software that needs to have 100% uptime and support many users.</p>
-								<h3>Technologies</h3>
-								<p>Working at Manulife gave me the opportunity to use some great tools to assist development and remove some of the unproductive tedious work. Two notable examples were CI/CD pipeline systems and utilizing an IDE to write code efficiently.</p>
-								<p>The CI/CD system used at Manulife is called Jenkins, and it’s a very useful tool! What a CI/CD system allows you to do is automate the continuous integration (validating and checking in small changes to SCM) and deployment of your code. I learned the process of setting up a new Jenkins CI pipeline to build, test, and quality check your code with SonarQube, as well as create CD pipelines to deploy code to a predefined environment, if it passed the CI checks. I learned that while these pipelines may take a little while to initially learn and setup, the payoff is worth the time investment as they save a significant amount of time over the long run and inevitably reduce the number of mistakes made by user error.</p>
-								<p> As for the IDE, Sparck used Microsoft Visual Studio. After the initial learning curve that came from my transition from Visual Studio Code which I had relied on up until this point, I quickly realized Visual Studio is an awesome tool that makes the development experience much simpler by including multiple useful tools. Some of the many different tools it bundles together are a nice GUI for source control, integrated build tools that call the compiler and provide hooks to run batch files before and after builds, automated code cleanup and format tools, and an automated test runner.  It also has extensive plugin support, so if there I was some functionality I needed I could download a plugin or make my own to add that functionality in. With the tools it provides, and some fancy editor features like intellisense and code generation, Visual Studio helped me become as productive a developer as I could be.</p>
-								<h3>Conclusion</h3>
-								<p>My backend software engineer co-op at Manulife was a fun and productive time. I was happy to be a member the Sparck squad and enjoyed the challenging work I was doing. I was able to develop my programming skills as well as my communication skills and learned a collection of helpful technologies to further propel my computer science career. </p>
-							</article>
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
 
-							<!-- Work -->
-							<article id="manulife-s21">
-								<h2 class="major">Manulife Summer 2021</h2>
-								<span class="image main"><img src="images/manulife_green.jpg" alt="" /></span>
-								<h3>Introduction</h3>
-								<p>Hello there! Welcome to my report on my second stint at Manulife. This time around, I was doing data engineering with Databricks and Python. I'd like to share with you my overall experience at Manulife this summer and what I took away from this work term.</p>
-								<h3>Information about the employer</h3>
-								<p>Manulife is a large Canadian-based, multinational insurance and financial services company. They've been around quite a while, since 1887 to be precise. Clearly, they've had a lot of time to accrue a massive pile of data. For decades, Manulife has been storing most of it's abundance of data in it's on-premises mainframe system. While they do still work, these mainframe systems are very much out of date and often very painful to work with. Manulife has been working on moving away from these mainframe systems to much more modern cloud-based systems which are easier to work with and scale better. This is where my role comes in, I was helping with the extraction, transformation and loading (ETL) of mainframe data to the cloud.</p>
-								<h3>Job Description</h3>
-								<p>As I mentioned above, I was doing data engineering during this work-term. More specifically, I was working with the Hopper squad to help to build the process that would eventually be responsible for automatically moving all data from the mainframe to the cloud. Assisting with the creation of this automation process was, of course, not as simple as it sounds. While reading data from the mainframe was thankfully abstracted away, and writing data to the output cloud database tables was very simple, the middle step of applying transformations to the mainframe data to satisfy business requirements proved to be a tricky task. To do this transformation work, the squad introduced me to Apache Spark, a data processing framework. This framework was very useful in that it could apply complex logic to a dataset in a way that was easy to understand. Most of my time during this work-term was spent debugging, improving, and creating new transformation jobs using Apache Spark on the Databricks platform, a cloud runtime for Spark.</p>
-								<p>I also spent a lot of time writing unit tests for these transformations. It was critical to ensure these transformations did what we expected them to do, for every possible case, so writing exhaustive tests was a very important part of the job, even if it wasn't the most exciting.</p>
-								<p>While not a part of my official job as a data engineer, I also did some work to improve the squad's development environment. One such improvement I undertook was creating and documenting a new testing environment in an attempt to increase the runtime performance of the tests. Running the Spark unit tests on Windows machines was horribly slow due to Spark not being optimized for Windows. Some tests could take upwards of an hour to run, while only taking minutes on Unix-like machines. Unsatisfied with this, I leveraged the Windows Subsystem for Linux (WSL) to create a Linux environment to run our tests in. This resulted in a massive performance improvement for the tests, in some cases they ran up to 60 times faster. I also undertook smaller improvements, like fixing database connections for a specific Spark cluster type. While programming the transformations was my main duty, I'm happy to use my technical intuition help iron out the small annoyances.</p>
-								<h3>Goals</h3>
-								<p>I set three goals for myself to work towards during my term at Manulife this past summer.</p>
-								<p>The first of the three goals was to learn about and experience the field of data science/data engineering. I had never done any data engineering work previously, so I wanted to know more about it, like what problems it solves and what tools are commonly used. After working in the field for the summer, I gained some understanding of data engineering and the problems it solves, but also realized I am nowhere near grasping the whole field. It is a very broad discipline. What I did gain was an understanding of how data engineering solves the problems presented by Manulife, and why the tools we used to solve the problems were used. For example, building ETL pipelines to relocate and transform data is a data engineering task, and we use Apache Spark along with Databricks and Python to build the pipelines because of their flexibility and ease of manipulating large sets of data.</p>
-								<p>My second goal was to improve my demonstration and presentation skills. When creating this goal, I felt like I was not able to demonstrate functionality as clear as I should be able to. Over the course of the Summer, I was given multiple opportunities to gives demos on things I had worked on/created. Through these opportunities, I became more confident and became better at structuring how I present information. I found a big help in this was planning the structure of my presentations, rather than planning what I would say. Sticking to a script is difficult, it's much easier to have an idea of what I need to talk about and simply talk about. After all, when presenting my own work, I'm the expert. Another big help in working towards this goal was feedback from teammates. I was able to guage how well I explained myself based on feedback from squad members, and paying attention to common question topics from the audience. </p>
-								<p>My final goal was simply to see if I enjoy data engineering work. I am trying to experience something new each co-op term, so I can find the kind of work I like and the kind of work I don't. Doing data engineering was interesting, and I liked it more than I thought I would. Python is a great language to use, and databricks is a cool platform. Apache Spark is a very powerful tool and I'm happy I got the chance to use it in a real project. With that being said, I think I prefer backend web development. I feel at home writing backend code, but I'm glad I had this experience so I know what data engineering is like. If I get bored of backend development in the future, I wouldn't be opposed to coming back to this kind of work.</p>
-								<h3>Conclusion</h3>
-								<p>My summer of data engineering Manulife was a great experience. Hopper squad was an awesome squad to be a member of. I learned a lot about a very different field of computer science, and got to gain experience with a bunch of cool technologies that I hope to use again one day. While data engineering may not be my first field of choice, I will not forget what I learned this summer and hope I will be able to apply this knowledge in my future career!</p>
-							</article>
+    <!-- BG -->
+    <div id="bg"></div>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<p>Reach me at my email address jmichels@uoguelph.ca</p>
-							</article>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
